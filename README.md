@@ -281,6 +281,8 @@ pnpm dev
 
 The app will be available at `http://localhost:3000`.
 
+Production deployments should be reproducible from the committed source and configured environment variables.
+
 > [!NOTE]
 > To test Stripe Webhooks, you need to expose your local server to the internet (tunnel). You can use Saleor CLI or Stripe CLI to do that. See [this guide](https://docs.saleor.io/docs/3.x/developer/extending/apps/developing-with-tunnels) for more details.
 
