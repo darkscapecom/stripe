@@ -1,0 +1,10 @@
+mutation DeletePublicMetadata($id: ID!, $keys: [String!]!) {
+  deleteMetadata(id: $id, keys: $keys) {
+    item {
+      metadata {
+        key
+        value
+      }
+    }
+  }
+}
